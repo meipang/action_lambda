@@ -1,3 +1,5 @@
+const datadogURL = process.env.DATADOG_ENDPOINT
+
 exports.handler = async (event) => {
     const response = {
         statusCode: 200,
